@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+    <title>PokeApi</title>
+  </head>
+  <body>
+    <div class="Container">
+        <h2 class="Title">
+            Busca a tu Pokemon
+        </h2>
+        <div class="container-input">
+         <input class="input" type="text"
+         id="pokemonInput"
+         required
+         placeholder="Busca Tu pokemon"
+         >
+        </div>
+         <div class="container-buttons">
+            <button class="buttons" id="buscarPokemon">
+               Buscar por nombre
+            </button>
+            <button class="buttons" id="buscarHabilidad">
+               Buscar por Habilidad
+            </button>  
+            <button class="buttons" id="buscarTipo">
+               Buscar por Tipo
+            </button>
+            <button class="buttons" id="Lista">
+               Lista de 50 Pokemon
+            </button>
+         </div>
+         <div id="pokemon" class="card" style="display: none;"></div>
+    </div>
+  </body>
+  <script src="/script.js"></script>
+</html>
